@@ -1,9 +1,10 @@
 /* styles go here */
-.form-field {
+.form-field:not(:last-child) {
   display: block;
   margin: 0 0 10px;
 }
 
 .container {
   margin: 0 20px 20px 0;
+  padding: 0;
 }
